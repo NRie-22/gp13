@@ -1,0 +1,15 @@
+@media  screen and (min-width:480px) {
+.container{
+max-width: 458px;
+}
+}
+/*@media screen and (min-widht: 414px) { 
+    .cont {
+        padding-right: 47px;
+        padding-left: 47px;
+    }
+    .cont {    
+        display: flex;
+        flex-direction: column;   
+    }
+    }*/
