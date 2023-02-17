@@ -104,11 +104,8 @@ row-gap: 16px;
 column-gap: 16px;
 text-decoration:none;
 margin-bottom: 16px;
-/*display: flex;*/
 justify-content: center;
 align-items: center;
-}
-.ul {
 list-style: none;
 padding-left: 0;
 margin-block-start: 1em;
@@ -119,8 +116,9 @@ padding-inline-start: 40px;
 }
 .l {
 width: 100%;
-}
-.li {
+display: list-item;
+/*}
+.li {*/
 display: list-item;
 text-align: match-parent;
 }
