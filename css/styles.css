@@ -172,12 +172,7 @@ align-items: center;
     fill-rule: evenodd;
     clip-rule: evenodd;
     }
-/*:not(svg) {
-    transform-origin-x: 0px;
-    transform-origin-y: 0px;
-    transform-box: view-box;
-    }*/
-    .t svg {
+.t svg {
         width: 24px;
         height: 24px;
         color: rgb(199, 144, 2);
@@ -210,16 +205,10 @@ display: inline-block;
     display: list-item;
     text-align: match-parent;
     }
-::marker {
-    unicode-bidi: isolate;
-    font-variant-numeric: tabular-nums;
-    white-space: pre;
-    text-transform: none;
-    }
 .te {
-        display: flex; 
-        justify-content: space-between;
-        align-items: center;
+    display: flex; 
+    justify-content: space-between;
+     align-items: center;
 }
 .thotel {
     text-decoration:none;
@@ -295,11 +284,6 @@ display: inline-block;
     fill-rule: evenodd;
     clip-rule: evenodd;
 }
-/*:not(svg){
-    transform-origin-x: 0px;
-    transform-origin-y: 0px;
-    transform-box: view-box;
-}*/
 .ah span:not(:first-child) {
     margin-right: 8px;
 }
