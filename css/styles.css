@@ -1,6 +1,6 @@
 
 
-/* Map */
+/* 
 html{
     box-sizing: border-box;
 }
@@ -13,19 +13,21 @@ ul,h1,h2,h3,p{
     margin:0 0;
     padding:0 0;
 }
+*/
 
 /* ---------- Map ----------- */
-.container {
+.container-map {
 padding-left: 15px;
 padding-right: 15px;
 margin-left: auto;
 margin-right: auto;
+background-color: #FFFDEE;
 } 
 .map {
 width:100%;
 padding-top: 36px;
 padding-bottom: 32px;
-background-color: #FFFDEE;
+/*background-color: #FFFDEE;*/
 }
 .section {
 display: block;
@@ -105,7 +107,7 @@ column-gap: 16px;
 text-decoration:none;
 margin-bottom: 16px;
 justify-content: center;
-align-items: center;
+/*align-items: center;*/
 list-style: none;
 padding-left: 0;
 margin-block-start: 1em;
@@ -378,6 +380,7 @@ left: 0;
 position: absolute;
 top: 0;
 }
+/*----  map  google
 .map-responsive {
 left: 0;
 top: 0;
@@ -385,3 +388,4 @@ height: 220px;
 width: 100%;
 overflow: hidden;
 }
+---*/
