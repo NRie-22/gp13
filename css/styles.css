@@ -380,7 +380,7 @@ left: 0;
 position: absolute;
 top: 0;
 }
-/*----  map  google
+/*----  map  google ---*/
 .map-responsive {
 left: 0;
 top: 0;
@@ -388,4 +388,3 @@ height: 220px;
 width: 100%;
 overflow: hidden;
 }
----*/
